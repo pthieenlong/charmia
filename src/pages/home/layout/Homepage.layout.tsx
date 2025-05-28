@@ -24,29 +24,29 @@ function Homepage() {
             </a>
             <a href="#">Log In</a>
             <a href="#">Sign up</a>
-            <a href="#" className="text-white block px-[1rem] py-[0.5rem] rounded-[2rem] bg-[#1E88E5]">Post a project</a>
+            <a href="#" className="text-white block px-[1rem] py-[0.5rem] rounded-[2rem] bg-lightblue">Post a project</a>
           </div>
         </nav>
-        <div className="banner">
-          <div className="">
+        <div className="flex w-[1280px]">
+          <div className="w-[634px] flex flex-col items-center justify-center">
             <div className="">
-              <h1>
+              <h1 className="font-bold text-[3rem]">
                 Are you looking for <br /> Freelancers ?
               </h1>
-              <p>
-                Hire Great Freelancers, Fast. Spacelance helps you hire elite freelancers at a moment's notice
+              <p className="text-[#828282] text-[1rem]" >
+                Hire Great Freelancers, Fast. Spacelance helps <br/> you hire elite freelancers at a moment's notice
               </p>
             </div>
-            <div className="">
-              <a href="#">Hire a freelancer</a>
-              <div className="">
-                <input type="text" />
-                <MagnifyingGlassIcon/>
+            <div className="flex items-center justify-center gap-1 w-full">
+              <a href="#" className="bg-lightblue text-white w-[50%]">Hire a freelancer</a>
+              <div className="flex flex-rows w-[50%]">
+                <input type="text"/>
+                <MagnifyingGlassIcon className="w-[1.5rem]"/>
               </div>
             </div>
           </div>
-          <div className="">
-            <img src={workImage} alt="" />
+          <div className="w-[768px]">
+            <img src={workImage} alt="" className="w-full" />
           </div>
         </div>
       </div>

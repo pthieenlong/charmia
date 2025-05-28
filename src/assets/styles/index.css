@@ -8,11 +8,9 @@
 
 @theme {
   --font-poppins: "Poppins", san-serif;
+  --color-lightblue: #1E88E5;
 }
 
 * {
-  font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
   font-family: "Poppins", sans-serif;
 }
